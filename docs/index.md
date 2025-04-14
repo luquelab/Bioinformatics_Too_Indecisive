@@ -1,4 +1,5 @@
 # Documentation 
+Documentation of our group's bioinformatics pipeline, accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive)
 
 ## Overview of the tool and its purpose
 This is a reproduceable bioinformatics pipeline which can take as input a list of DNA sequences and perform an in-depth sequence analysis. It is designed to require minimal setup beyond placing the input data in the correct folder.
