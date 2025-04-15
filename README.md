@@ -12,7 +12,8 @@ It is designed for researchers and students needing a simple, reproducible workf
 
 Click the badge below to open the notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([YOUR_COLAB_LINK_HERE](https://colab.research.google.com/github/luquelab/Bioinformatics_Too_Indecisive/blob/notebook/notebooks/Group_2_(Too_indecisive)_.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luquelab/Bioinformatics_Too_Indecisive/blob/notebook/notebooks/Group_2_(Too_indecisive)_.ipynb)
+
 
 
 
