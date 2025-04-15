@@ -13,8 +13,42 @@ This code installs BioPython, imports the SeqIO module, and loads all sequences 
 
 ### Calculate sequence length and GC content
 
+```
+# Histogram of Sequence Lengths
+plt.figure(figsize=(8, 6))
+sns.histplot(sequence_df["Length"], bins=20, kde=True)
+plt.title("Distribution of Sequence Lengths")
+plt.xlabel("Sequence Length (bp)")
+plt.ylabel("Frequency")
+plt.show()
+
+# Boxplot of GC Content
+plt.figure(figsize=(8, 6))
+sns.boxplot(y=sequence_df["GC Content"])
+plt.title("Distribution of GC Content")
+plt.ylabel("GC Content (%)")
+plt.show()
+
+# Scatterplot: Length vs. GC Content
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x="Length", y="GC Content", data=sequence_df)
+plt.title("Sequence Length vs. GC Content")
+plt.xlabel("Sequence Length (bp)")
+plt.ylabel("GC Content (%)")
+plt.show()
+```
+
 Sequence length and GC content are calculated and plotted.
 
 ![Image 1](image1.png)
 ![Image 2](image2.png)
 ![Image 3](image3.png)
+
+### Protein sequence prediction
+```
+for protein_record in protein_records:
+    print(f"Sequence ID: {protein_record.id}")
+    print(f"Protein Sequence (partial): {protein_record.seq[:20]}...")  # Print first 20 amino acids
+    print(f"Amino Acid Length: {len(protein_record.seq)}")
+    print("-" * 20)  # Separator
+```
