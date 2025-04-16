@@ -52,3 +52,19 @@ for protein_record in protein_records:
     print(f"Amino Acid Length: {len(protein_record.seq)}")
     print("-" * 20)  # Separator
 ```
+![Image 4](protein_prediction_ss.png)
+
+### Align sequences with Clustal
+```
+clustalomega_cline_nucleotide = ClustalOmegaCommandline(
+    cmd=clustalo_path,
+    infile="nucleotide_sequences.fasta",
+    outfile="nucleotide_sequence_alignment.fna",  # Output file for nucleotide alignment
+    verbose=True,
+    auto=True,
+    force=True
+)
+clustalomega_cline_nucleotide()
+```
+### Generate a pairwise sequence heatmap
+
