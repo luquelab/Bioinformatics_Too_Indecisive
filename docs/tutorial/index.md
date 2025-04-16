@@ -66,5 +66,20 @@ clustalomega_cline_nucleotide = ClustalOmegaCommandline(
 )
 clustalomega_cline_nucleotide()
 ```
-### Generate a pairwise sequence heatmap
+### Generate a pairwise sequence heatmap + dendogram
+![Image 5](dendogram.png)
+
+### Create a phylogenetic tree
+![Image 6](tree.png)
+
+### Perform BLAST searches
+```
+# Step 2: Perform BLAST Search for Each Sequence
+for seq_id, sequence in protein_sequences.items():
+    print(f"Running BLAST for {seq_id}...")
+    result_handle = NCBIWWW.qblast("blastp", "nr", sequence)  # BLASTP against NCBI nr database
+    with open(f"{seq_id}_blast.xml", "w") as out_file:
+        out_file.write(result_handle.read())  # Save results to XML
+    time.sleep(2)  # Avoid spamming NCBI servers
+```
 
