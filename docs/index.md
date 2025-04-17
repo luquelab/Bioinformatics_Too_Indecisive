@@ -1,3 +1,9 @@
+---
+layout: home
+title: Home
+nav_order: 1
+---
+
 # Documentation 
 Documentation of our group's bioinformatics pipeline. The Github folder containing the pipeline, this documentation, example cases, and the tutorial is accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive).
 
