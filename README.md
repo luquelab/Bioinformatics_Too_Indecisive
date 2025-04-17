@@ -23,12 +23,20 @@ Click the badge below to open the notebook in Google Colab:
 Bioinformatics_Too_Indecisive/ 
 |
 ├── LICENSE 
-├── README.md 
+├── README.md
+├── .github/
+  └── workflows/
+    └── pages.yml
 ├── notebooks/ 
-│ └── Group_2_(Too_indecisive)_.ipynb 
+  └── Group_2_(Too_indecisive)_.ipynb
+  └── sequences.fna
 ├── docs/ 
-│ └── index.md (GitHub Pages site) 
-  └── examples/ 
+  └── index.md (GitHub Pages site)
+  └── acknowledgements.md
+  └──  _config.yml
+  └── Gemfile
+  └── tutorial/
+    └── index.md
   └── combined_genes.fna
 ```
 
