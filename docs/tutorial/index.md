@@ -51,6 +51,11 @@ Sequence length and GC content are calculated and plotted.
 ![Image 3](image3.png)
 
 ### Protein sequence prediction
+This code iterates through protein records, displaying:
+
+- Sequence identifier
+- First 20 amino acids of the sequence
+- Total sequence length
 ```
 for protein_record in protein_records:
     print(f"Sequence ID: {protein_record.id}")
@@ -61,6 +66,7 @@ for protein_record in protein_records:
 ![Image 4](protein_prediction_ss.png)
 
 ### Align sequences with Clustal
+The code performs multiple sequence alignment using Clustal Omega, a widely-used alignment tool known for its accuracy and efficiency.
 ```
 clustalomega_cline_nucleotide = ClustalOmegaCommandline(
     cmd=clustalo_path,
@@ -72,13 +78,16 @@ clustalomega_cline_nucleotide = ClustalOmegaCommandline(
 )
 clustalomega_cline_nucleotide()
 ```
-### Generate a pairwise sequence heatmap + dendogram
+### Generate a pairwise sequence heatmap
+The cpde then generates a pairwise sequence similarity heatmap to visualize the relationships between sequences.
 ![Image 5](dendogram.png)
 
 ### Create a phylogenetic tree
+Based on the multiple sequence alignment, we construct a phylogenetic tree to infer evolutionary relationships.
 ![Image 6](tree.png)
 
 ### Perform BLAST searches
+To identify homologous sequences in public databases, we perform BLAST (Basic Local Alignment Search Tool) searches against the NCBI non-redundant (nr) protein database.
 ```
 # Step 2: Perform BLAST Search for Each Sequence
 for seq_id, sequence in protein_sequences.items():
