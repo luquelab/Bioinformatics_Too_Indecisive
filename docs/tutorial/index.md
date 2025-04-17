@@ -56,6 +56,7 @@ This code iterates through protein records, displaying:
 - Sequence identifier
 - First 20 amino acids of the sequence
 - Total sequence length
+  
 ```
 for protein_record in protein_records:
     print(f"Sequence ID: {protein_record.id}")
@@ -79,7 +80,7 @@ clustalomega_cline_nucleotide = ClustalOmegaCommandline(
 clustalomega_cline_nucleotide()
 ```
 ### Generate a pairwise sequence heatmap
-The cpde then generates a pairwise sequence similarity heatmap to visualize the relationships between sequences.
+The code then generates a pairwise sequence similarity heatmap to visualize the relationships between sequences.
 ![Image 5](dendogram.png)
 
 ### Create a phylogenetic tree
