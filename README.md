@@ -37,7 +37,6 @@ Bioinformatics_Too_Indecisive/
   └── Gemfile
   └── tutorial/
     └── index.md
-  └── combined_genes.fna
 ```
 
 ## 🧬 Input
