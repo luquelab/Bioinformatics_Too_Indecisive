@@ -20,7 +20,7 @@ The pipeline can:
 The entire pipeline is downloadable as a Jupyter file (.ipynb). Go to the /notebooks folder on our Github page and download main_pipeline.ipynb. You can open it either on Google Colab or on a IDE of your choice such as Visual Studio Code, provided it can open Jupyter files. Make sure your sequences are saved in the fasta format in a file which you must name sequences.fna and import that file in the /data folder in the same folder where the pipeline is located. Run the pipeline. 
 
 ## Usage guide with examples
-See the example folder on Github. Alternatively, [you may refer to our tutorial](tutorial/index.md) for further guidance. 
+See the example folder on Github. Alternatively, you may refer to our tutorial for further guidance. 
 
 ## Technical details about the implementation
 The pipeline is written entirely in Python and uses standard scientific and bioinformatic libraries such as:
