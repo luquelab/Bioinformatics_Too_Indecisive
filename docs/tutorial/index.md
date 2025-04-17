@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tutorial
+nav_order: 2
+---
+
 # Tutorial
 
 The easiest way to use this pipeline is to run it in a Google Colab notebook. You can do so by using the "Open in Colab" button in the readme.md file.
