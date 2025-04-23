@@ -5,7 +5,10 @@ nav_order: 1
 ---
 
 # Documentation 
-Documentation of our group's bioinformatics pipeline. The Github folder containing the pipeline, this documentation, example cases, and the tutorial is accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive).
+Documentation of our group's bioinformatics pipeline. 
+- The Github folder containing the pipeline, this documentation, example cases, and the tutorial is accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive).
+- The pipeline is accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive/blob/main/notebooks/Group_2_(Too_indecisive)_.ipynb).
+- The repository contains example data. The folder is accessible [here](https://github.com/luquelab/Bioinformatics_Too_Indecisive/tree/main/example)).
 
 ## Overview of the tool and its purpose
 This is a reproduceable bioinformatics pipeline which can take as input a list of DNA sequences and perform an in-depth sequence analysis. It is designed to require minimal setup beyond placing the input data in the correct folder.
