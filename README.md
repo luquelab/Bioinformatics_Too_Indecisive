@@ -27,9 +27,10 @@ Bioinformatics_Too_Indecisive/
 ├── .github/
   └── workflows/
     └── pages.yml
+├── example
+     └── sequences.fna
 ├── notebooks/ 
   └── Group_2_(Too_indecisive)_.ipynb
-  └── sequences.fna
 ├── docs/ 
   └── index.md (GitHub Pages site)
   └── acknowledgements.md
