@@ -29,8 +29,14 @@ Bioinformatics_Too_Indecisive/
     └── pages.yml
 ├── example
      └── sequences.fna
+     └── outputs/
+       └── alignments/
+       └── organism_origin/
+       └── phylogenetic_tree/
+       └── sequence_properties/
 ├── notebooks/ 
   └── Group_2_(Too_indecisive)_.ipynb
+  └── results/
 ├── docs/ 
   └── index.md (GitHub Pages site)
   └── acknowledgements.md
