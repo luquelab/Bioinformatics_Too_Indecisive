@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2287791</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>226</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2287791</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>226</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>tpg|DAW80302.1|</Hit_id>
+  <Hit_def>MAG TPA: gamma delta Resolvase, site specific recombination [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>DAW80302</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>1.52773e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|DAL37225.1|</Hit_id>
+  <Hit_def>MAG TPA_asm: gamma delta Resolvase, site specific recombination [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>DAL37225</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>7.81999e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISTKQQSIDRQIRNIKAEYEKAAIITEAYSGTTMNRPEWNKLYKKAKAGDTIIFDSVSRMSRDADEGFTLYEELYNKGIELVFLKEPHINTATYKKALQNNVSMTGTNVDYILEGVNKYLMELAKEQIRLAFEQSEKEVEDLHQRTREGIATARLNGKQIGQKQGIKLVTKKSIEAKKQIQKYSKDFDGQLSDVDCMRMVGLARNTFYKYKREMK</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRISTKQQSI+RQIRNIKAEY+KA IITEAYSGTTMNRPEWNKLYKKAKAGDTI+FDSVSRMSRDADEGF+LYEELYNKGIELVFLKEPHINTATYKKALQNNVS+TGTNVDYILEGVNKYLM LAKEQI+LAFEQSEKEVEDLHQRT+EGIATARLNGKQIGQKQG KL TKKSIEAKKQIQKYSKDFDGQLSD DCMRM+GLARNTFYKYKREMK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MDD7713709.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnobacterium sp.] &gt;gb|MDY5461655.1| recombinase family protein [Agathobacter sp.]</Hit_def>
+  <Hit_accession>MDD7713709</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.19368e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIRAEYNTAVIVTEAYSGTTLNRPEWNKLYKRIKAGDTIVFDSVSRMSRDSDEGFALYEELYTKGVELVFLKEPHINTATYKSALQNNVSLTGTNVDYILEGINKYLMTLAKEQIKIAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKPGAKLITKKSIEAKKQIRKYSKDFDGQLSDVECMRMIGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNI+AEY+ AVI+TEAYSGTT+NRPEWNKLYK+ KAGDTIVFDSVSRMSRD+DEGF+LYEELY KG+ELVFLKEPHINTATYK ALQNNVSLTGTNVDYILEG+NKYLM LAKEQIK+AFEQ++KEV+DLHQRTKEGIATARLNGKQIGQK GAKL TKKSIEAKKQI+KYSKDFDGQLSD +CMRMIGLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MDY6244955.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDY6244955</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>7.09414e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIRAEYNTAVIVTEAYSGTTLNRPEWNKLYKRIKAGDTIVFDSVSRMSRDSDEGFALYEELYTKGVELVFLKEPHINTATYKSALQNNVSLTGTNVDYILDGINKYLMTLAKEQIKIAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKPGAKLITKKSIEAKKQIRKYSKDFDGQLSDVECMRMIGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNI+AEY+ AVI+TEAYSGTT+NRPEWNKLYK+ KAGDTIVFDSVSRMSRD+DEGF+LYEELY KG+ELVFLKEPHINTATYK ALQNNVSLTGTNVDYIL+G+NKYLM LAKEQIK+AFEQ++KEV+DLHQRTKEGIATARLNGKQIGQK GAKL TKKSIEAKKQI+KYSKDFDGQLSD +CMRMIGLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MFQ7336086.1|</Hit_id>
+  <Hit_def>recombinase family protein [Roseburia faecis] &gt;tpg|DAV39224.1| MAG TPA: integrase [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>MFQ7336086</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.52884e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIKTEYNTAVIVTEAYSGTTLNRPEWNKLYKKIKEGDTIIFDSVSRMSRDADEGFLLYEELYNKGIELVFLKEPHINTATYKKALQNNVAMTGTNVDYILEGINKYLMALAKEQIKLAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKQGVKLITKKSIEAKKKIRKYSKDYEGQLSDVECMQMIGLARNTYYKYKREMKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNIK EY+ AVI+TEAYSGTT+NRPEWNKLYKK K GDTI+FDSVSRMSRDADEGF LYEELYNKGIELVFLKEPHINTATYKKALQNNV++TGTNVDYILEG+NKYLMALAKEQIKLAFEQ++KEV+DLHQRTKEGIATARLNGKQIGQKQG KL TKKSIEAKK+I+KYSKD++GQLSD +CM+MIGLARNT+YKYKREMK E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCI6682846.1|</Hit_id>
+  <Hit_def>recombinase family protein [Roseburia faecis] &gt;gb|MDY4476497.1| recombinase family protein [Roseburia faecis]</Hit_def>
+  <Hit_accession>MCI6682846</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>4.10294e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIRAEYNTAVIVTEAYSGTTLNRPEWNKLYTRIKAGDTIVFDSVSRMSRDSDEGFALYEELYTKGVELVFLKEPHINTATYKSALQNNVSLTGTNVDYILDGINKYLMTLAKEQIKIAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKPGAKLITKKSIEAKKQIRKYSKDFDGQLSDVECMRMIGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNI+AEY+ AVI+TEAYSGTT+NRPEWNKLY + KAGDTIVFDSVSRMSRD+DEGF+LYEELY KG+ELVFLKEPHINTATYK ALQNNVSLTGTNVDYIL+G+NKYLM LAKEQIK+AFEQ++KEV+DLHQRTKEGIATARLNGKQIGQK GAKL TKKSIEAKKQI+KYSKDFDGQLSD +CMRMIGLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HCQ05654.1|</Hit_id>
+  <Hit_def>resolvase [Roseburia sp.]</Hit_def>
+  <Hit_accession>HCQ05654</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>8.0992e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIKTEYNTAVIVTEAYSGTTLNRPEWNKLYKKIKEGDTIIFDSVSRMSRNADEGFLLYEELYNKGIELVFLKEPHINTATYKKALQNNVAMTGTNVDYILEGINKYLMALAKEQIKLAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKQGVKLITKKSIEAKKKIRKYSKDYEGQLSDVECMQMIGLARNTYYKYKREMKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNIK EY+ AVI+TEAYSGTT+NRPEWNKLYKK K GDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINTATYKKALQNNV++TGTNVDYILEG+NKYLMALAKEQIKLAFEQ++KEV+DLHQRTKEGIATARLNGKQIGQKQG KL TKKSIEAKK+I+KYSKD++GQLSD +CM+MIGLARNT+YKYKREMK E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HAD66880.1|</Hit_id>
+  <Hit_def>resolvase [Roseburia sp.]</Hit_def>
+  <Hit_accession>HAD66880</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.001</Hsp_bit-score>
+      <Hsp_score>1068</Hsp_score>
+      <Hsp_evalue>1.49813e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIRAEYNTAVIVTEAYSGTTLNRSEWNKLYKRIKAGDTIVFDSVSRMSRDSDEGFALYEELYTKGVELVFLKEPHINTATYKSALQNNVSLTGPNVDYILDGINKYLMTLAKEQIKIAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKPGAKLITKKSIEAKKQIRKYSKDFDGQLSDVECMRMIGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNI+AEY+ AVI+TEAYSGTT+NR EWNKLYK+ KAGDTIVFDSVSRMSRD+DEGF+LYEELY KG+ELVFLKEPHINTATYK ALQNNVSLTG NVDYIL+G+NKYLM LAKEQIK+AFEQ++KEV+DLHQRTKEGIATARLNGKQIGQK GAKL TKKSIEAKKQI+KYSKDFDGQLSD +CMRMIGLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MDE6945282.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDE6945282</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.001</Hsp_bit-score>
+      <Hsp_score>1068</Hsp_score>
+      <Hsp_evalue>1.92801e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGALSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_160559165.1|</Hit_id>
+  <Hit_def>recombinase family protein [Parablautia muri] &gt;gb|NBJ92087.1| recombinase family protein [Parablautia muri]</Hit_def>
+  <Hit_accession>WP_160559165</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.616</Hsp_bit-score>
+      <Hsp_score>1067</Hsp_score>
+      <Hsp_evalue>2.62112e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCTYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGALSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MCX4300229.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MCX4300229</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.231</Hsp_bit-score>
+      <Hsp_score>1066</Hsp_score>
+      <Hsp_evalue>3.12393e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKTKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGALSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKK KAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBD5495423.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MBD5495423</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.231</Hsp_bit-score>
+      <Hsp_score>1066</Hsp_score>
+      <Hsp_evalue>3.44804e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKRAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGVKLTTKKSIEAKKQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKREMKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYK+AKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQG KLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKREMK E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MDE7418161.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDE7418161</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>6.58588e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDIIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGNLSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKKAKAGD I+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MEH2942110.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium JLR.KK002]</Hit_def>
+  <Hit_accession>MEH2942110</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>7.67895e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYFMSLAKEQIRLAFEQSEKEVQDLHQKTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGALSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKY M+LAKEQI+LAFEQSEKEV+DLHQ+TKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MCI9082012.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MCI9082012</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.075</Hsp_bit-score>
+      <Hsp_score>1063</Hsp_score>
+      <Hsp_evalue>1.03255e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNRGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDTDCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYN+GIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|NDO48365.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium MD335]</Hit_def>
+  <Hit_accession>NDO48365</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.69</Hsp_bit-score>
+      <Hsp_score>1062</Hsp_score>
+      <Hsp_evalue>1.15225e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDVDCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_135988910.1|</Hit_id>
+  <Hit_def>recombinase family protein [Petralouisia muris] &gt;gb|MEY8334286.1| recombinase family protein [Lachnospiraceae bacterium 47-T17] &gt;gb|TGY97020.1| recombinase family protein [Petralouisia muris]</Hit_def>
+  <Hit_accession>WP_135988910</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.69</Hsp_bit-score>
+      <Hsp_score>1062</Hsp_score>
+      <Hsp_evalue>1.15225e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGALSDVDCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|NBH73570.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridiaceae bacterium] &gt;gb|RKI10285.1| recombinase family protein [bacterium 1XD21-70]</Hit_def>
+  <Hit_accession>NBH73570</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.305</Hsp_bit-score>
+      <Hsp_score>1061</Hsp_score>
+      <Hsp_evalue>2.17681e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLSGKQIGQRQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARL+GKQIGQ+QGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|NBH12664.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>NBH12664</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>2.32488e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYFMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDTDCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKY M+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MFG6326909.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MFG6326909</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>2.68117e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYHKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIESKKQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELY+KGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIE+KKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|MEY8390824.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium 45-W7]</Hit_def>
+  <Hit_accession>MEY8390824</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.305</Hsp_bit-score>
+      <Hsp_score>1061</Hsp_score>
+      <Hsp_evalue>3.00778e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYFMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDTDCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKY M+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|MFG6368375.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MFG6368375</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.24504e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKTKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQPKGTKLTTKKSIEAKKQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKRELKTE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKK KAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQ +G KLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+KTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|MCM1327473.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnoclostridium sp.]</Hit_def>
+  <Hit_accession>MCM1327473</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>3.26848e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIDRQIRNIMSGYNKAVIIQEVYTGTKQDRPEWNKLYKRAKAGDTIVFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDTDCIKLIGLARNTFYKYKRELKTE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNI + Y+KAVII E Y+GT  +RPEWNKLYK+AKAGDTIVFDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSD DC+++IGLARNTFYKYKRE+KTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|MDE7200870.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDE7200870</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>3.89544e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDKAVIIQEVYTGTKQDRPEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQPKGAKLTTKKSIEAKIQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YDKAVII E Y+GT  +RPEWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQ +GAKLTTKKSIEAK QIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|NBH24399.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>NBH24399</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>5.23796e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKGSYDKAVIIQEVYTGTKQDRTEWNKLYKKAKAGDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISLTGINIDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDADCMKLIGLARNTFYKYKRELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +R EWNKLYKKAKAGDTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+SLTG N+D+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDF+G LSDADCM++IGLARNTFYKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|MCM1384485.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnoclostridium sp.] &gt;gb|MCM1464030.1| recombinase family protein [Bacteroidales bacterium]</Hit_def>
+  <Hit_accession>MCM1384485</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>9.16394e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIDRQIRNIMSGYNKAVIIQEVYTGTKQDRPEWNKLYKRAKAGDTIVFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQRQGAKLTTKKSIEAKKQIQKHSKDFNGTLSDTDCIKLIGLARNTFYKYKRELKTE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNI + Y+KAVII E Y+GT  +RPEWNKLYK+AKAGDTIVFDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQ+QGAKLTTKKSIEAKKQIQK+SKDF+G LSD DC+++IGLARNTFYKYKRE+KTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_282923768.1|</Hit_id>
+  <Hit_def>recombinase family protein [Mediterraneibacter massiliensis]</Hit_def>
+  <Hit_accession>WP_282923768</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>1.44964e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIKGEYDTAVIVTEVYTGTKQDRPEWNKLYRKVKPGDTIVFDSVSRMSRDAEEGFALYEDLYNKGVELIYIKEPHINTSTYKKALQNNVSMTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVKDLHQRTKEGIETARLNGKQIGQKQGAKLVTKKSVESKKLIQKHSKDFDGALSDVDCMKLIGLARNTYYKYKKEIKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNIK EYD AVI+TE Y+GT  +RPEWNKLY+K K GDTIVFDSVSRMSRDA+EGF+LYE+LYNKG+EL+++KEPHINT+TYKKALQNNVS+TGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKL TKKS+E+KK IQK+SKDFDG LSD DCM++IGLARNT+YKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|MEZ3460938.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MEZ3460938</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>6.67109e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKNCYDKAVIIQEVYTGTKQDRPEWNKLYKKAKTDDTIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTSTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSKDFDGTLSDTDCMKLVGLARNTFYKYKKELKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK  YDKAVII E Y+GT  +RPEWNKLYKKAK  DTI+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT+TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+SKDFDG LSD DCM+++GLARNTFYKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|MDE7177074.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDE7177074</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>1.27413e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCRISTKQQSIDRQIRNIKSSYDNAVIIQEVYTGTKQDRPEWNKLYKKVKAGDIIIFDSVSRMSRNADEGFCLYEELYNKGIELVFLKEPHINTNTYKKALESNISMTGTNVDFILEGVNKYLMSLAKEQIRLAFEQSEKEVQDLHQRTREGIETARLNGKQIGQKQGAKLTTKKSIEAKKQIQKHSRDFNGTLSDADCMKLIGLARNTFYKYKKELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK+ YD AVII E Y+GT  +RPEWNKLYKK KAGD I+FDSVSRMSR+ADEGF LYEELYNKGIELVFLKEPHINT TYKKAL++N+S+TGTNVD+ILEGVNKYLM+LAKEQI+LAFEQSEKEV+DLHQRT+EGI TARLNGKQIGQKQGAKLTTKKSIEAKKQIQK+S+DF+G LSDADCM++IGLARNTFYKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_195609436.1|</Hit_id>
+  <Hit_def>recombinase family protein [Mediterraneibacter glycyrrhizinilyticus]</Hit_def>
+  <Hit_accession>WP_195609436</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>5.23434e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIKGQYDAAVIVTEVYTGTKQDRPEWNKLYRKVKPGDRIVFDSVSRMSRDAEEGFALYEDLYNKGVELIYIKEPHINTSTYKKALQNNVSMTGTNVDYILEGVNKYLMSLAKEQIKLAFEQSEKEVKDLHQRTKEGIETARLNGKQIGQKQGAKLITKKSVESKKLIQKHSKDFDGVLSDVDCMKLTGLARNTYYKYKREIKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNIK +YD AVI+TE Y+GT  +RPEWNKLY+K K GD IVFDSVSRMSRDA+EGF+LYE+LYNKG+EL+++KEPHINT+TYKKALQNNVS+TGTNVDYILEGVNKYLM+LAKEQIKLAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKL TKKS+E+KK IQK+SKDFDG LSD DCM++ GLARNT+YKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_072525547.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridium sp. Marseille-P3244]</Hit_def>
+  <Hit_accession>WP_072525547</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>1.67375e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIDRQIRNIKAEYGDAVIVTEIYTGTKQDRPEWNKLYKKVKSGDTIVFDSVSRMSRNEDEGFCLYEDLYTKGVELVFLKEPHINTVTYKHALQSNIALTGTNVDYILEGVNKYLMALAKEQIRLAFEQSEKEVQDLHQRTKEGIETARLNGKQIGQRRGAKLTTKKSIEAKQQIQRYSKDFDGSLSDVDCLKLTGLARNTYYKYKRELKVE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIKAEY  AVI+TE Y+GT  +RPEWNKLYKK K+GDTIVFDSVSRMSR+ DEGF LYE+LY KG+ELVFLKEPHINT TYK ALQ+N++LTGTNVDYILEGVNKYLMALAKEQI+LAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQ++GAKLTTKKSIEAK+QIQ+YSKDFDG LSD DC+++ GLARNT+YKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|MEI3412646.1|</Hit_id>
+  <Hit_def>recombinase family protein [Blautia sp.] &gt;gb|MFR0799953.1| recombinase family protein [Suilimivivens sp.]</Hit_def>
+  <Hit_accession>MEI3412646</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>2.60206e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIERQIRNIKNAYNTAVIVTEAYSGTTIDRPEWKKLYKKLKPGDLIVFDSVSRMSRNADDGFLLYEELFEKNIDLIFLKEPHINTAVYKKALQNNVSLTGTDVDYILEGVNKYLMALAKEQIRIAFEQAEKEVQDLHQRTREGIATARINGKQIGQKQGTKLITKKSIEAKKQIQKYSKDFNGQLPDPECIRMTGLARNTFYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSIERQIRNIK  Y+ AVI+TEAYSGTT++RPEW KLYKK K GD IVFDSVSRMSR+AD+GF LYEEL+ K I+L+FLKEPHINTA YKKALQNNVSLTGT+VDYILEGVNKYLMALAKEQI++AFEQ+EKEV+DLHQRT+EGIATAR+NGKQIGQKQG KL TKKSIEAKKQIQKYSKDF+GQL D +C+RM GLARNTFYKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_418463713.1|</Hit_id>
+  <Hit_def>recombinase family protein [Frisingicoccus sp.]</Hit_def>
+  <Hit_accession>WP_418463713</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.971</Hsp_bit-score>
+      <Hsp_score>1016</Hsp_score>
+      <Hsp_evalue>1.60264e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTKQQSIDRQIRNIKTEYDKAVIVTEVYTGTKQDRPEWNKLYKKVKTGDIIVFDSVSRMSRNADEGFNLYEGLYNKGIELVFLKEPHINTSTYKKALQNNVAMTGTNVDYILEGINKYLMALAKEQIKLAFEQSEKEVQDLHQRTREGIETARLNGKQIGQKQGAKLNVKKKAPAMEQIKKYSKDFGGALSDVDCMKLTGLARNTYYKYKRELKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRISTKQQSI+RQIRNIK EYDKAVI+TE Y+GT  +RPEWNKLYKK K GD IVFDSVSRMSR+ADEGF+LYE LYNKGIELVFLKEPHINT+TYKKALQNNV++TGTNVDYILEG+NKYLMALAKEQIKLAFEQSEKEV+DLHQRT+EGI TARLNGKQIGQKQGAKL  KK   A +QI+KYSKDF G LSD DCM++ GLARNT+YKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_296960382.1|</Hit_id>
+  <Hit_def>recombinase family protein [uncultured Mediterraneibacter sp.]</Hit_def>
+  <Hit_accession>WP_296960382</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>1.35249e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYCRISTRQQSIDRQIRNIKQKYEQAVIVTEAYTGTTTDRPEWNKLYKKVKAGDTIVFDSVSRMSRDAEDGFKLYEELYNKDIELVFLKEPHINTATYKKALQNNVALTGTTVDYILEGINKYLMALAKEQIKLAFEQSEKEVKDLHQRTKEGIETARLNGKQIGQIKGAKLITKKSIESKKKIREYSKDFDGSLSDADCMKLIGLARNTFYKYKRELKSE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRIST+QQSI+RQIRNIK +Y++AVI+TEAY+GTT +RPEWNKLYKK KAGDTIVFDSVSRMSRDA++GF LYEELYNK IELVFLKEPHINTATYKKALQNNV+LTGT VDYILEG+NKYLMALAKEQIKLAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQ +GAKL TKKSIE+KK+I++YSKDFDG LSDADCM++IGLARNTFYKYKRE+K+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>tpg|DAM59372.1|</Hit_id>
+  <Hit_def>MAG TPA: integrase [Bacteriophage sp.]</Hit_def>
+  <Hit_accession>DAM59372</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>7.94577e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISTKQQSIERQIRNIKACYANAVIVTEIYTGTKQDRPEWNKLYKKVKPGDSIIFDSVSRMSRNAEEGFNLYETLYNKNVELMFLKEPHINTGTYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFDQAEKEVEDLHQRTREGIETARLNGKQIGQRQGVKLVTKKSIEAKEQIRKHCKEFGGGLSDVDCMKLVGLARNTYYKYKKELKQE</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRISTKQQSIERQIRNIKA Y  AVI+TE Y+GT  +RPEWNKLYKK K GD+I+FDSVSRMSR+A+EGF+LYE LYNK +EL+FLKEPHINT TYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAF+Q+EKEVEDLHQRT+EGI TARLNGKQIGQ+QG KL TKKSIEAK+QI+K+ K+F G LSD DCM+++GLARNT+YKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|MEY8395780.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium 45-P1]</Hit_def>
+  <Hit_accession>MEY8395780</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>8.77838e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCMYGYCWVSTKQQSIDRQIRNIKSSYDNAVIIQEVYTGTGQDRPEWNKLYKSVKAGDTIIFDSVSRMSRNADEGFYLYEKLFNKGVELVFLKEPHINTSTYKNALESDILMTRTNAEFILESVNKYLTSLAKEQIRLAIEQSEKELQDLHQRTKEGIETARLNGKQIGQRQGAKLTTKKSVEAKKQIREQSRDFNGTLSDADCMKLTGLARNTFYKYKRELRSE</Hsp_hseq>
+      <Hsp_midline>MC+YGYC +STKQQSI+RQIRNIK+ YD AVII E Y+GT  +RPEWNKLYK  KAGDTI+FDSVSRMSR+ADEGF LYE+L+NKG+ELVFLKEPHINT+TYK AL++++ +T TN ++ILE VNKYL +LAKEQI+LA EQSEKE++DLHQRTKEGI TARLNGKQIGQ+QGAKLTTKKS+EAKKQI++ S+DF+G LSDADCM++ GLARNTFYKYKRE+++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_270620966.1|</Hit_id>
+  <Hit_def>recombinase family protein [[Ruminococcus] torques] &gt;gb|MBD9268147.1| recombinase family protein [[Ruminococcus] torques] &gt;gb|MFR3002494.1| recombinase family protein [[Ruminococcus] torques] &gt;gb|MFR8918441.1| recombinase family protein [[Ruminococcus] torques] &gt;tpg|DAI78986.1| MAG TPA: integrase [Bacteriophage sp.]</Hit_def>
+  <Hit_accession>WP_270620966</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>2.9024e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MC-VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTM-NRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCKVYGYCRISTKKQSIERQERNILKDYPNAIIIKESCTGTKIYGRKEFEKLLKIIKSGDTIVFDSVSRMSRDAEEGFALYEDLYNKGVELIYIKEPHINTSTYKKALQNNVSMTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVKDLHQRTKEGIETARLNGKQIGQKQGAKLVTKKSVESKKLIQKHSKDFDGALSDVDCMKLIGLARNTYYKYKKEIKEE</Hsp_hseq>
+      <Hsp_midline>MC VYGYCRISTK+QSIERQ RNI  +Y  A+II E+ +GT +  R E+ KL K  K+GDTIVFDSVSRMSRDA+EGF+LYE+LYNKG+EL+++KEPHINT+TYKKALQNNVS+TGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEV+DLHQRTKEGI TARLNGKQIGQKQGAKL TKKS+E+KK IQK+SKDFDG LSD DCM++IGLARNT+YKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|MCI8951447.1|</Hit_id>
+  <Hit_def>recombinase family protein [Lachnospiraceae bacterium]</Hit_def>
+  <Hit_accession>MCI8951447</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>6.08302e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCLYGYCRISTMKQSLERQIRNIKAEYPNAVVITDTYTGTKTDRPGWVKLYKKVKAGDTVVFDSVSRLSRNAEDGYTLYEELYNRGVELVFLKEPHINTSTYKKALESNIQMTGTNVDFILEGINKYLLSLAKEQIRLAFEQAEKEVQDLHQRTKEGIETARLNGKQIGLPKGTKLTTRKSVEAKEKILKYSKDFNGTMNDEETMIQVGVSRNSFYKYKKELKAE</Hsp_hseq>
+      <Hsp_midline>MC+YGYCRIST +QS+ERQIRNIKAEY  AV+IT+ Y+GT  +RP W KLYKK KAGDT+VFDSVSR+SR+A++G++LYEELYN+G+ELVFLKEPHINT+TYKKAL++N+ +TGTNVD+ILEG+NKYL++LAKEQI+LAFEQ+EKEV+DLHQRTKEGI TARLNGKQIG  +G KLTT+KS+EAK++I KYSKDF+G ++D + M  +G++RN+FYKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|MBR4406878.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridia bacterium]</Hit_def>
+  <Hit_accession>MBR4406878</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>4.8571e-122</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>YGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>YGYCRISRAKQSIERQIRNIKAEYPEALIIQEVFTRTRLDRKEWPKLYKAVKAGDTIVFDSVSRMSGNADEGFTAYEELYNRGIKLVFLKEPHINTATYKQALESNVKLTGGNVDFILEGVNKYLMALAKEQIKLAFQQSEKEVEDLHQRTKEGLETARLNGKQIGQKEGAKLTTKKSVASKEIILKHSKDFNGTLADADVMKLTGLARNTYYKYKKELKEE</Hsp_hseq>
+      <Hsp_midline>YGYCRIS  +QSIERQIRNIKAEY +A+II E ++ T ++R EW KLYK  KAGDTIVFDSVSRMS +ADEGF+ YEELYN+GI+LVFLKEPHINTATYK+AL++NV LTG NVD+ILEGVNKYLMALAKEQIKLAF+QSEKEVEDLHQRTKEG+ TARLNGKQIGQK+GAKLTTKKS+ +K+ I K+SKDF+G L+DAD M++ GLARNT+YKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|MBQ8279299.1|</Hit_id>
+  <Hit_def>recombinase family protein [Roseburia sp.]</Hit_def>
+  <Hit_accession>MBQ8279299</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>2.07539e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCVYGYCRISRAKQSIERQIRNIQAEYPKAIIIQEVFTRTSLNRKEWIKLYNKVKDGDTIVFDSVSRMSGNAEEGFSAYEELYNRGVNLVFLKEPHINTDTYKKAIENNIELTGSNIDYILEGVNKYLMSLAKEQIRLAFEQSQKEVDDLHQRTKEGIETARLSGKQIGQPKGTKLTTKKSIEAKAIIEKHSKSFNGTLSDDECIKLAGISRNSFYKYKAEIK</Hsp_hseq>
+      <Hsp_midline>MCVYGYCRIS  +QSIERQIRNI+AEY KA+II E ++ T++NR EW KLY K K GDTIVFDSVSRMS +A+EGFS YEELYN+G+ LVFLKEPHINT TYKKA++NN+ LTG+N+DYILEGVNKYLM+LAKEQI+LAFEQS+KEV+DLHQRTKEGI TARL+GKQIGQ +G KLTTKKSIEAK  I+K+SK F+G LSD +C+++ G++RN+FYKYK E+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|MDO4467927.1|</Hit_id>
+  <Hit_def>recombinase family protein [Bacillota bacterium]</Hit_def>
+  <Hit_accession>MDO4467927</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>2.12505e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MCIYGYARISRAKQSIERQIRNIKSSYPTATIIEEVFTRTSLNRKEWQKLFNKVKAGDTIVFDSVSRMSGNAEEGFNAYQELYNRDVELVFLKEPHINTATYKKALENNIELTGTSVDYILEGVNKYLMALAKEQIILAFEQSEKEVSDLHQRTKEGIETARLNGKQIGQPKGTKLTTKKSLAAKEVIKKHSKDFNGTLSDDDCMKLAGISRNSYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MC+YGY RIS  +QSIERQIRNIK+ Y  A II E ++ T++NR EW KL+ K KAGDTIVFDSVSRMS +A+EGF+ Y+ELYN+ +ELVFLKEPHINTATYKKAL+NN+ LTGT+VDYILEGVNKYLMALAKEQI LAFEQSEKEV DLHQRTKEGI TARLNGKQIGQ +G KLTTKKS+ AK+ I+K+SKDF+G LSD DCM++ G++RN++YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_394872558.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridium butyricum] &gt;gb|MDU3581190.1| recombinase family protein [Clostridium butyricum] &gt;gb|MDU3594753.1| recombinase family protein [Clostridium butyricum]</Hit_def>
+  <Hit_accession>WP_394872558</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>2.7733e-119</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>IYGYCRISTKQQSIDRQERNILAEYNNAIIIKESYTGTKIDRPQFTKLLKQVKTGDIIVFDSVSRMSRNADEGFTLYEDLFNKGIELVFLKEQHINTETYKRALTNNISLTGTNVDYILEGVNKYLLALAKEQIKIAFEQAEKEVKDLQQRTKEGIETARLNGKQIGNTKGVKLTTKKSIVAKEQIKKYSKDFQGTLKDIEVMKLIGLARNTYYKYKKAIIAE</Hsp_hseq>
+      <Hsp_midline>+YGYCRISTKQQSI+RQ RNI AEY+ A+II E+Y+GT ++RP++ KL K+ K GD IVFDSVSRMSR+ADEGF+LYE+L+NKGIELVFLKE HINT TYK+AL NN+SLTGTNVDYILEGVNKYL+ALAKEQIK+AFEQ+EKEV+DL QRTKEGI TARLNGKQIG  +G KLTTKKSI AK+QI+KYSKDF G L D + M++IGLARNT+YKYK+ +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_045144519.1|</Hit_id>
+  <Hit_def>MULTISPECIES: recombinase family protein [Clostridium] &gt;gb|MEO2603770.1| recombinase family protein [Clostridium butyricum] &gt;gb|MEO2680718.1| recombinase family protein [Clostridium butyricum] &gt;gb|MEO2737835.1| recombinase family protein [Clostridium butyricum] &gt;gb|UZT08033.1| recombinase family protein [Clostridium sp. LQ25]</Hit_def>
+  <Hit_accession>WP_045144519</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>3.34117e-119</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>IYGYCRISTKQQSIDRQERNILAEYNNAIIIKESYTGTKIDRPQFTKLLKQVKTGDIIVFDSVSRMSRNADEGFTLYEDLFNKGIELVFLKEQHINTETYKRALTNNISLTGTNVDYILEGVNKYLLALAKEQIKIAFEQAEKEVKDLQQRTKEGIETARINGKQIGNVKGTKLITKKSVEAKKDIIKYSKDFGGTLKDIEVMKLVGLARNTYYKYKKEIMTE</Hsp_hseq>
+      <Hsp_midline>+YGYCRISTKQQSI+RQ RNI AEY+ A+II E+Y+GT ++RP++ KL K+ K GD IVFDSVSRMSR+ADEGF+LYE+L+NKGIELVFLKE HINT TYK+AL NN+SLTGTNVDYILEGVNKYL+ALAKEQIK+AFEQ+EKEV+DL QRTKEGI TAR+NGKQIG  +G KL TKKS+EAKK I KYSKDF G L D + M+++GLARNT+YKYK+E+ TE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|MEY8233216.1|</Hit_id>
+  <Hit_def>recombinase family protein [Oscillospiraceae bacterium 50-16]</Hit_def>
+  <Hit_accession>MEY8233216</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>5.21414e-119</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>VYGYVRVSTPKQNIERQIRNIKAAYPAALIVQDEYTGTKMDRPNWTKLYRKLNDGDTVIFDSVSRMSRNAEEGFSIYEELYNLGVSLVFLKEPHINTDTYRNALTNDIPLTGTNVDYILAGVNQYLLALAKEQIRLAFEQAEKEVSDLHQRTKEGIETARLNGKQIGLKAGSKLTTKKSVEAKKLIQKHSKDFEGSLSDSECIRLIGCARGSYYKYKRELKAD</Hsp_hseq>
+      <Hsp_midline>VYGY R+ST +Q+IERQIRNIKA Y  A+I+ + Y+GT M+RP W KLY+K   GDT++FDSVSRMSR+A+EGFS+YEELYN G+ LVFLKEPHINT TY+ AL N++ LTGTNVDYIL GVN+YL+ALAKEQI+LAFEQ+EKEV DLHQRTKEGI TARLNGKQIG K G+KLTTKKS+EAKK IQK+SKDF+G LSD++C+R+IG AR ++YKYKRE+K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|CDL65584.1|</Hit_id>
+  <Hit_def>unnamed protein product [uncultured bacterium]</Hit_def>
+  <Hit_accession>CDL65584</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>5.40292e-118</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>CVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>CFYGYARISKAKQSIERQIRNILKAYPNAVILQEAYTGTTTNRKEWNKLYKTVKAGDTIVFDSVSRMSRNAEEGFAAYEELYSRGVDLVFLKEPHINTATYKAALQNNVKLTGGNVDFILEGVNKYLMALAKEQIKLAFEQSEKEVADLHTRTKEGLITAKLNGKQIGLQPGTKLTTKKSIAAKEIIKKHSKDFCGTLDDTEVIKLAGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>C YGY RIS  +QSIERQIRNI   Y  AVI+ EAY+GTT NR EWNKLYK  KAGDTIVFDSVSRMSR+A+EGF+ YEELY++G++LVFLKEPHINTATYK ALQNNV LTG NVD+ILEGVNKYLMALAKEQIKLAFEQSEKEV DLH RTKEG+ TA+LNGKQIG + G KLTTKKSI AK+ I+K+SKDF G L D + +++ GLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|MBO5105422.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridia bacterium]</Hit_def>
+  <Hit_accession>MBO5105422</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>6.0152e-118</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>VYGYCRISRAKQSIERQIRNIKAVYPDAVIIQEVFTRTRIDRKEWQKLAKAVKAGDTIVFDSVSRMSGNADEGFNAYEELYNRGVKLVFLKEPHINTDTYKQALESNIKLTGNSVDYILEGINKYLMALAKEQIRLAFEQSEKEVADLHQRTKEGLITAKLNGKQVGQKQGTKLTTKKSITAKEIIKKHSQDFDGTLADADVMTLTGLSRNTYYKYKRELKEE</Hsp_hseq>
+      <Hsp_midline>VYGYCRIS  +QSIERQIRNIKA Y  AVII E ++ T ++R EW KL K  KAGDTIVFDSVSRMS +ADEGF+ YEELYN+G++LVFLKEPHINT TYK+AL++N+ LTG +VDYILEG+NKYLMALAKEQI+LAFEQSEKEV DLHQRTKEG+ TA+LNGKQ+GQKQG KLTTKKSI AK+ I+K+S+DFDG L+DAD M + GL+RNT+YKYKRE+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_416390211.1|</Hit_id>
+  <Hit_def>recombinase family protein [Roseburia faecis]</Hit_def>
+  <Hit_accession>WP_416390211</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>6.56548e-118</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>MNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>MNRPEWNKLYKRIKAGDTIVFDSVSRMSRDSDEGFALYEELYTKGVELVFLKEPHINTATYKSALQNNVSLTGTNVDYILDGINKYLMTLAKEQIKIAFEQAQKEVDDLHQRTKEGIATARLNGKQIGQKPGAKLITKKSIEAKKQIRKYSKDFDGQLSDVECMRMIGLARNTYYKYKRELK</Hsp_hseq>
+      <Hsp_midline>MNRPEWNKLYK+ KAGDTIVFDSVSRMSRD+DEGF+LYEELY KG+ELVFLKEPHINTATYK ALQNNVSLTGTNVDYIL+G+NKYLM LAKEQIK+AFEQ++KEV+DLHQRTKEGIATARLNGKQIGQK GAKL TKKSIEAKKQI+KYSKDFDGQLSD +CMRMIGLARNT+YKYKRE+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MFR3920549.1|</Hit_id>
+  <Hit_def>recombinase family protein [Clostridia bacterium]</Hit_def>
+  <Hit_accession>MFR3920549</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>9.74165e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MCVYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMKTE</Hsp_qseq>
+      <Hsp_hseq>MCIYGYTRISRAKQSIDRQIRNIKAIYPTAVIIQEVFTRTSLNRKEWQKLFNKVKAGDTIVFDSVSRMSGNAEEGFKAYEELYNRGVELIFLKEPHINTATYKKALENNISLTGTSVDYILEGVNKYLMALAKEQIIIAFEQSEKEVTDLHQRTTEGIETARLQGKQIGLMKGTKLTTKKSIAAKEIIKKHSKDFDGTLEDSDVIKLAGISRNSYYKYKKELKEE</Hsp_hseq>
+      <Hsp_midline>MC+YGY RIS  +QSI+RQIRNIKA Y  AVII E ++ T++NR EW KL+ K KAGDTIVFDSVSRMS +A+EGF  YEELYN+G+EL+FLKEPHINTATYKKAL+NN+SLTGT+VDYILEGVNKYLMALAKEQI +AFEQSEKEV DLHQRT EGI TARL GKQIG  +G KLTTKKSI AK+ I+K+SKDFDG L D+D +++ G++RN++YKYK+E+K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_412644044.1|</Hit_id>
+  <Hit_def>recombinase family protein [Intestinibacter bartlettii] &gt;gb|MFR9211529.1| recombinase family protein [Intestinibacter bartlettii]</Hit_def>
+  <Hit_accession>WP_412644044</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>1.7914e-117</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>YGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTM-NRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREM</Hsp_qseq>
+      <Hsp_hseq>YGYCRVSTKKQNIERQVRNIKQEYKDAVILQEAYTGTKIEGRKEFNKLLRTVKEGDTIIFDSVSRMSRNAEEGYKLYEELYNKGIELIFIKEPHINTETYKKALTNNIKLTGTNVDFILEGVNKYLLALAKEQIKLAFEQSEKEVKDLQQRTKEGIETARLNGKQIGRQEGTKVTTKKSVEAKKQIQEYSRAFNGSLKDADCIKLIGIDRKTYYKYKKEL</Hsp_hseq>
+      <Hsp_midline>YGYCR+STK+Q+IERQ+RNIK EY  AVI+ EAY+GT +  R E+NKL +  K GDTI+FDSVSRMSR+A+EG+ LYEELYNKGIEL+F+KEPHINT TYKKAL NN+ LTGTNVD+ILEGVNKYL+ALAKEQIKLAFEQSEKEV+DL QRTKEGI TARLNGKQIG+++G K+TTKKS+EAKKQIQ+YS+ F+G L DADC+++IG+ R T+YKYK+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>emb|CDL65567.1|</Hit_id>
+  <Hit_def>unnamed protein product [uncultured bacterium]</Hit_def>
+  <Hit_accession>CDL65567</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>1.96853e-117</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VYGYCRISTKQQSIERQIRNIKAEYDKAVIITEAYSGTTMNRPEWNKLYKKAKAGDTIVFDSVSRMSRDADEGFSLYEELYNKGIELVFLKEPHINTATYKKALQNNVSLTGTNVDYILEGVNKYLMALAKEQIKLAFEQSEKEVEDLHQRTKEGIATARLNGKQIGQKQGAKLTTKKSIEAKKQIQKYSKDFDGQLSDADCMRMIGLARNTFYKYKREMK</Hsp_qseq>
+      <Hsp_hseq>IYGYCRISRAKQSIERQIRNIKAVYPEAVIIEEVFTRTRIDRKEWNKLTSKVKCGDTIVFDSVSRMSGNAEEGFTAYEELYNSGVNLVFLKEPHINTDTYKQALQNNVVLTGGTVDYILEGVNKYLLALAKEQIKLAFEQSEKEVEDLHQRTREGLITAKLNGKQVGQKKGAKLTTKKSVAAKEVIAKHSKDFNGTLSDIDVMKLTGLSRNTYYKYKAEMK</Hsp_hseq>
+      <Hsp_midline>+YGYCRIS  +QSIERQIRNIKA Y +AVII E ++ T ++R EWNKL  K K GDTIVFDSVSRMS +A+EGF+ YEELYN G+ LVFLKEPHINT TYK+ALQNNV LTG  VDYILEGVNKYL+ALAKEQIKLAFEQSEKEVEDLHQRT+EG+ TA+LNGKQ+GQK+GAKLTTKKS+ AK+ I K+SKDF+G LSD D M++ GL+RNT+YKYK EMK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>909848305</Statistics_db-num>
+      <Statistics_db-len>346079953150</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
